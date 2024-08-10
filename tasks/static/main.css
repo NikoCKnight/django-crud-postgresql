@@ -1,0 +1,79 @@
+/* Archivo main.css */
+
+body {
+    background-color: #202020; /* Fondo negro */
+    color: #f8f9fa; /* Texto en color claro */
+    font-family: 'Roboto', sans-serif; /* Tipografía amigable */
+}
+
+.container {
+    padding-top: 50px;
+}
+
+h1.display-6 {
+    color: #ffffff; /* Título en blanco */
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.card {
+    background-color: #f5f5dc; /* Color hueso para el fondo del formulario */
+    border-radius: 8px; /* Bordes redondeados para un aspecto moderno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    color: #343a40; /* Texto en gris oscuro */
+    border: 1px solid #dcdcdc; /* Borde en un gris claro */
+}
+
+.card-body {
+    padding: 20px; /* Espaciado interno para un mejor diseño */
+}
+
+.btn-success {
+    background-color: #28a745; /* Verde suave para el botón de guardar */
+    border-color: #28a745;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Verde ligeramente más oscuro al pasar el mouse */
+    border-color: #1e7e34;
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Rojo estándar para el botón de eliminar */
+    border-color: #dc3545;
+    color white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Rojo más oscuro al pasar el mouse */
+    border-color: #bd2130;
+}
+
+.form-control {
+    background-color: #ffffff; /* Fondo del input en blanco */
+    border: 1px solid #ced4da; /* Borde en gris claro */
+    color: #343a40; /* Texto en gris oscuro */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.form-control::placeholder {
+    color: #6c757d; /* Color del texto placeholder */
+}
+
+label {
+    color: #495057; /* Un gris más oscuro para que resalten los labels */
+    font-weight: bold; /* Resaltar los labels */
+}
+
+.no-tasks {
+    background-color: #f5f5dc; /* Color hueso para la tarjeta de "No tasks yet" */
+    border: 1px solid #dcdcdc; /* Borde en gris claro */
+    color: #343a40; /* Texto en gris oscuro */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+}
+
+.mt-3 {
+    margin-top: 1rem; /* Espaciado superior para las tarjetas */
+}
